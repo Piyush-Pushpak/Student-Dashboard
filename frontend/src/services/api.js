@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://student-dashboard-backend-ryuy.onrender.com/students";
+const API_URL = "https://student-dashboard-backend-6i5r.onrender.com/students";
 
 // Login
 export const login = async (userData) => {
