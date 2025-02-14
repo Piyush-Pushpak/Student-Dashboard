@@ -70,9 +70,8 @@ const Login = () => {
 
           <button
             type="submit"
-            className={`w-full px-4 py-2 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition ${
-              loading ? "opacity-50 cursor-not-allowed" : ""
-            }`}
+            className={`w-full px-4 py-2 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition ${loading ? "opacity-50 cursor-not-allowed" : ""
+              }`}
             disabled={loading}
           >
             {loading ? "Logging in..." : "Login"}
@@ -81,7 +80,7 @@ const Login = () => {
 
         <p className="mt-4 text-center text-white text-sm">
           Don't have an account?{" "}
-          <Link href="/register" className="text-blue-200 hover:underline">
+          <Link to="/register" className="text-blue-200 hover:underline">
             Register here
           </Link>
         </p>

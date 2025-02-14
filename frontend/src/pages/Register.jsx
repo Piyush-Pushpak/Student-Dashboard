@@ -83,9 +83,8 @@ const Register = () => {
 
           <button
             type="submit"
-            className={`w-full px-4 py-2 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition ${
-              loading ? "opacity-50 cursor-not-allowed" : ""
-            }`}
+            className={`w-full px-4 py-2 font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition ${loading ? "opacity-50 cursor-not-allowed" : ""
+              }`}
             disabled={loading}
           >
             {loading ? "Creating Account..." : "Register"}
@@ -94,7 +93,7 @@ const Register = () => {
 
         <p className="mt-4 text-center text-white text-sm">
           Already have an account?{" "}
-          <Link href="/login" className="text-blue-200 hover:underline">
+          <Link to="/login" className="text-blue-200 hover:underline">
             Login here
           </Link>
         </p>
