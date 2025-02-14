@@ -9,7 +9,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 
-const allowedOrigins = ["https://student-dashboard-frontend-dif6.onrender.com"];
+const allowedOrigins = ["https://student-dashboard-frontend-gduu.onrender.com"];
 
 app.use(
   cors({
