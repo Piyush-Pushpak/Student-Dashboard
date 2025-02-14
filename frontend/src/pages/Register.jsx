@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { register } from "../services/api";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const [name, setName] = useState("");
@@ -93,9 +94,9 @@ const Register = () => {
 
         <p className="mt-4 text-center text-white text-sm">
           Already have an account?{" "}
-          <a href="/login" className="text-blue-200 hover:underline">
+          <Link href="/login" className="text-blue-200 hover:underline">
             Login here
-          </a>
+          </Link>
         </p>
       </div>
     </div>
